@@ -8,9 +8,8 @@ public class Main {
         System.out.println("enter a height");
         int height = sc.nextInt();
 
-        Scanner sc2 = new Scanner(System.in);
         System.out.println("enter a width");
-        int width = sc2.nextInt();
+        int width = sc.nextInt();
 
         for (int i = 1; i <= height; i++){
             for (int j = 1; j <= width; j++){
@@ -23,6 +22,6 @@ public class Main {
             System.out.println();
         }
         sc.close();
-        sc2.close();
+
     }
 }
